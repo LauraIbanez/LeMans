@@ -9323,5 +9323,27 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
+
+/*AGREGUÉ YO */
 #TitServ { text-align: center;
+}
+
+.btn-wsp{
+  position:fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background:green;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index: 100;
+}
+.btn-wsp:hover{text-decoration: none;
+  color: green;
+  background: white;
 }
